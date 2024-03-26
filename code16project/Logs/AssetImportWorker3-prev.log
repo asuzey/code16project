@@ -1,0 +1,377 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.9f1 (0c9c2e1f4bef) revision 826414'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16128 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/sadif/OneDrive/Masaüstü/code16/code16
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+51370
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/sadif/OneDrive/Masaüstü/code16/code16
+C:/Users/sadif/OneDrive/Masaüstü/code16/code16
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [43060] Host "[IP] 192.168.139.1 [Port] 0 [Flags] 2 [Guid] 344671637 [EditorId] 344671637 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TOIQE2S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [43060] Host "[IP] 192.168.139.1 [Port] 0 [Flags] 2 [Guid] 344671637 [EditorId] 344671637 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TOIQE2S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 1.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.9f1 (0c9c2e1f4bef)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/sadif/OneDrive/Masaüstü/code16/code16/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3990 MB
+    Driver:   31.0.15.1700
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.005058 seconds.
+- Loaded All Assemblies, in  0.353 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 196 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.492 seconds
+Domain Reload Profiling: 843ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (118ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (127ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (492ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (449ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (284ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (117ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  0.715 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.520 seconds
+Domain Reload Profiling: 1231ms
+	BeginReloadAssembly (264ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (368ms)
+		LoadAssemblies (301ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (111ms)
+			BuildScriptInfoCaches (22ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (521ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (352ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (258ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4172 unused Assets / (0.8 MB). Loaded Objects now: 4753.
+Memory consumption went from 129.3 MB to 128.5 MB.
+Total: 7.135800 ms (FindLiveObjects: 0.516000 ms CreateObjectMapping: 0.378100 ms MarkObjects: 4.999800 ms  DeleteObjects: 1.240900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 183165.253456 seconds.
+  path: Assets/Isometric Suburban Pack/Props/bbq kettle b.png
+  artifactKey: Guid(b472e4e22d43a014a8593f8ea5f69483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/bbq kettle b.png using Guid(b472e4e22d43a014a8593f8ea5f69483) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d8f149fbc63ebda79f7220d11ab5d5b') in 0.0850845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Isometric Suburban Pack/Buildings/convenience store 01b.png
+  artifactKey: Guid(d61c7a90bd9bb7648a939fdf670c2767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Buildings/convenience store 01b.png using Guid(d61c7a90bd9bb7648a939fdf670c2767) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f521c134465277d8000bb09a6eb1c6da') in 0.0539747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Casual UI/Sprite/GUI.png
+  artifactKey: Guid(1eaee135ce037439d925cee5e41ce026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Casual UI/Sprite/GUI.png using Guid(1eaee135ce037439d925cee5e41ce026) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c829698c65b4e2e9752d15c547fea389') in 0.2510399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 64
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001928 seconds.
+  path: Assets/Isometric Suburban Pack/Buildings/house 08b.png
+  artifactKey: Guid(6418783b3dbf1ea4bb6750db6e9a8112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Buildings/house 08b.png using Guid(6418783b3dbf1ea4bb6750db6e9a8112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41b41d46e6cd4a8682f1d5a4db3a0d25') in 0.015117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric Suburban Pack/Buildings/house 09a.png
+  artifactKey: Guid(a544a0c59e8864f4c915a315278b1e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Buildings/house 09a.png using Guid(a544a0c59e8864f4c915a315278b1e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54bfc675108f70da17fcf9205e909eb6') in 0.014917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Isometric Suburban Pack/Vehicles/pickup 03c.png
+  artifactKey: Guid(fcf27af1d45cd614fbe3cb52a988ae44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Vehicles/pickup 03c.png using Guid(fcf27af1d45cd614fbe3cb52a988ae44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd99643bad0eae4f6a8345b14839af849') in 0.0142162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Isometric Suburban Pack/Props/Roads/road 02 b.png
+  artifactKey: Guid(f776bc3921fa7ad45913fa993b07a4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/Roads/road 02 b.png using Guid(f776bc3921fa7ad45913fa993b07a4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9de950eec1acc4ecb7419693aaab419e') in 0.0135822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022658 seconds.
+  path: Assets/Isometric Suburban Pack/Vehicles/suv 04b.png
+  artifactKey: Guid(13303217ec4f0ea4b8a052e9d48ff2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Vehicles/suv 04b.png using Guid(13303217ec4f0ea4b8a052e9d48ff2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30366f95d52e30a7ba507c0b79eae9f3') in 0.0120866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006807 seconds.
+  path: Assets/Isometric Suburban Pack/Props/trash bag a.png
+  artifactKey: Guid(7332b2a23625abc4bb35a53e5269679c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/trash bag a.png using Guid(7332b2a23625abc4bb35a53e5269679c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ca3558dfb38b0db162d5da1b7f83299') in 0.0120671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.651608 seconds.
+  path: Assets/Isometric Suburban Pack/Props/solar panel b.png
+  artifactKey: Guid(c146a25a3f3720141afa1050ae600d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/solar panel b.png using Guid(c146a25a3f3720141afa1050ae600d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fba30091862c2a1f90345f25cc0f726') in 0.0305847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Lana Studio/Hyper Casual FX/Textures/Square01.png
+  artifactKey: Guid(c03421af22a354a49bbfad526333cd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lana Studio/Hyper Casual FX/Textures/Square01.png using Guid(c03421af22a354a49bbfad526333cd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83cec376041e8fce17e441dde208582c') in 0.0208327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011539 seconds.
+  path: Assets/Isometric Suburban Pack/Props/Roads/sidewalk corner b.png
+  artifactKey: Guid(7b39b379e5f524f4d86658c46cb55eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/Roads/sidewalk corner b.png using Guid(7b39b379e5f524f4d86658c46cb55eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16eface07e7a8069ecd38551d1be3c2c') in 0.0420871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Isometric Suburban Pack/Props/road sign b.png
+  artifactKey: Guid(41ad0cd822331754ab08b4af47e8c4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/road sign b.png using Guid(41ad0cd822331754ab08b4af47e8c4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d67d4dcb034709ecfcdfdc7ffc9178d') in 0.0191903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Isometric Suburban Pack/Props/Roads/road 02 e.png
+  artifactKey: Guid(31df9c600a96ee24c89153125d3921fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/Roads/road 02 e.png using Guid(31df9c600a96ee24c89153125d3921fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f37b464722d8018c0b1bac62fc2e22b') in 0.0382418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.129673 seconds.
+  path: Assets/Isometric Suburban Pack/Vehicles/pickup 05b.png
+  artifactKey: Guid(ac3ebf42558772444955bcca2330a7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Vehicles/pickup 05b.png using Guid(ac3ebf42558772444955bcca2330a7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65a0231353506b10588b10beb57a95c0') in 0.011921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Isometric Suburban Pack/Vehicles/pickup 04d.png
+  artifactKey: Guid(573dd270e8c95374c8f3cc0373873fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Vehicles/pickup 04d.png using Guid(573dd270e8c95374c8f3cc0373873fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b3369db9a65cf3ef38d531dc637118d') in 0.0122957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019554 seconds.
+  path: Assets/Isometric Suburban Pack/Vehicles/pickup 01c.png
+  artifactKey: Guid(b06c08d83fe536b49b378c2b52cc3109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Vehicles/pickup 01c.png using Guid(b06c08d83fe536b49b378c2b52cc3109) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34c621d8251af371eb95d8707d3e478b') in 0.0117683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Isometric Suburban Pack/Vegetation/palm tree.png
+  artifactKey: Guid(f437e9ca00cac8146acc05e5d29031ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Vegetation/palm tree.png using Guid(f437e9ca00cac8146acc05e5d29031ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2bad51de55741682c8194ded4612e84') in 0.0130343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018510 seconds.
+  path: Assets/Isometric Suburban Pack/Props/light pole d.png
+  artifactKey: Guid(dc802b0c6dcc40241881bc59a841fd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/light pole d.png using Guid(dc802b0c6dcc40241881bc59a841fd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '195532c031c603bafc5f5aa02efddf64') in 0.0111001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006959 seconds.
+  path: Assets/Isometric Suburban Pack/Buildings/house 11c.png
+  artifactKey: Guid(8df81d6b2a31d2c4a89a05cfb5bbc663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Buildings/house 11c.png using Guid(8df81d6b2a31d2c4a89a05cfb5bbc663) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '196491c9a2322e2a2ebec404e9091f9a') in 0.0127809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006426 seconds.
+  path: Assets/Isometric Suburban Pack/Buildings/house 10b.png
+  artifactKey: Guid(eea1b63025d5a5e47b58f2931637ee4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Buildings/house 10b.png using Guid(eea1b63025d5a5e47b58f2931637ee4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f279fd0588d734855c20ed98e5f4e541') in 0.0143729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,689 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.9f1 (0c9c2e1f4bef) revision 826414'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16128 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/sadif/OneDrive/Masaüstü/code16/code16
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51370
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/sadif/OneDrive/Masaüstü/code16/code16
+C:/Users/sadif/OneDrive/Masaüstü/code16/code16
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25884] Host "[IP] 192.168.139.1 [Port] 0 [Flags] 2 [Guid] 918848463 [EditorId] 918848463 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TOIQE2S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25884] Host "[IP] 192.168.139.1 [Port] 0 [Flags] 2 [Guid] 918848463 [EditorId] 918848463 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TOIQE2S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 1.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.9f1 (0c9c2e1f4bef)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/sadif/OneDrive/Masaüstü/code16/code16/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3990 MB
+    Driver:   31.0.15.1700
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.005398 seconds.
+- Loaded All Assemblies, in  0.360 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 194 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.487 seconds
+Domain Reload Profiling: 845ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (151ms)
+		LoadAssemblies (110ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (134ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (487ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (448ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (284ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (117ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  0.679 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.540 seconds
+Domain Reload Profiling: 1216ms
+	BeginReloadAssembly (257ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (339ms)
+		LoadAssemblies (267ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (110ms)
+			BuildScriptInfoCaches (22ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (541ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (361ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (266ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4172 unused Assets / (1.2 MB). Loaded Objects now: 4753.
+Memory consumption went from 129.3 MB to 128.1 MB.
+Total: 7.255300 ms (FindLiveObjects: 0.596900 ms CreateObjectMapping: 0.532200 ms MarkObjects: 4.938200 ms  DeleteObjects: 1.187000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 183142.136008 seconds.
+  path: Assets/Isometric Suburban Pack/Props/Roads/xing lines a.png
+  artifactKey: Guid(dc00fc1e2e528df4cbc2fbb39ecba25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/Roads/xing lines a.png using Guid(dc00fc1e2e528df4cbc2fbb39ecba25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eca073facab6bb4bee56a75a84a054dc') in 0.0692004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.881114 seconds.
+  path: Assets/Isometric Suburban Pack/Vehicles/vehicle 05b.png
+  artifactKey: Guid(b367a4885cf5db940a771e4503fae123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Vehicles/vehicle 05b.png using Guid(b367a4885cf5db940a771e4503fae123) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d7bb2f89b3ad775b5184152d3d16563') in 0.0121896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.219290 seconds.
+  path: Assets/Isometric Suburban Pack/Vehicles/vehicle 02d.png
+  artifactKey: Guid(a40632582d178b740b5cfd0d3b9f69ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Vehicles/vehicle 02d.png using Guid(a40632582d178b740b5cfd0d3b9f69ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ddd2dc517d81334fce2ca3e36babdaa') in 0.0128914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.257636 seconds.
+  path: Assets/Isometric Suburban Pack/Vehicles/vehicle 02b.png
+  artifactKey: Guid(0fa8fe86212098240bee19b2633a2439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Vehicles/vehicle 02b.png using Guid(0fa8fe86212098240bee19b2633a2439) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bf98c5beb8795b63a9decec31cfcc64') in 0.0120455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.822591 seconds.
+  path: Assets/Isometric Suburban Pack/Vehicles/vehicle 01 c.png
+  artifactKey: Guid(724000684a66c7b40af60d9c82057dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Vehicles/vehicle 01 c.png using Guid(724000684a66c7b40af60d9c82057dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c2b7f5ad887699387e1848c9a1a830c') in 0.0144035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001383 seconds.
+  path: Assets/Isometric Suburban Pack/Props/trash bin green a.png
+  artifactKey: Guid(3cfa468445721fd478ddf7f4853d416e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/trash bin green a.png using Guid(3cfa468445721fd478ddf7f4853d416e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '016107875971dba121a43beade5e7091') in 0.0137191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric Suburban Pack/Vegetation/tree 02.png
+  artifactKey: Guid(ecf7ddabac7c55f418e455f9f8fdbc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Vegetation/tree 02.png using Guid(ecf7ddabac7c55f418e455f9f8fdbc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33014d2e6e330f9922c27cbbfc0fd538') in 0.020289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric Suburban Pack/Props/Roads/street a.png
+  artifactKey: Guid(1e801b8c937022848adc461820e1f3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/Roads/street a.png using Guid(1e801b8c937022848adc461820e1f3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18777c3cd8b7d169c678b281acb65580') in 0.0179068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Lana Studio/Hyper Casual FX/Textures/Ray01.png
+  artifactKey: Guid(bf04f30f380d18849b60d45ecaab22f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lana Studio/Hyper Casual FX/Textures/Ray01.png using Guid(bf04f30f380d18849b60d45ecaab22f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94fea1e56e3848443dc54e94f3c46419') in 0.0208139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Isometric Suburban Pack/Buildings/house 02b.png
+  artifactKey: Guid(2b07739784def124088aaf5b39ddab67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Buildings/house 02b.png using Guid(2b07739784def124088aaf5b39ddab67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cc3eb551f065ca3df528d548a2e74d8') in 0.0171712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Isometric Suburban Pack/Buildings/house 03a.png
+  artifactKey: Guid(c678d5873aaab284b88edcef475b121e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Buildings/house 03a.png using Guid(c678d5873aaab284b88edcef475b121e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18ea1f265e2b8a84b2509f3712ec690a') in 0.0179464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Isometric Suburban Pack/Props/gas pump b.png
+  artifactKey: Guid(a846472368cd63e4986bf160528447a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/gas pump b.png using Guid(a846472368cd63e4986bf160528447a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e827ec07e457f91495efa2d54c6e4a38') in 0.0155871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Lana Studio/Hyper Casual FX/Textures/Circle04.png
+  artifactKey: Guid(738d0386f7ab1b242b3cca6cedcb2106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lana Studio/Hyper Casual FX/Textures/Circle04.png using Guid(738d0386f7ab1b242b3cca6cedcb2106) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7445f1e9787945c37946a5d10e1511a5') in 0.0137833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Isometric Suburban Pack/Characters/Character02/chr02_wb02.png
+  artifactKey: Guid(5e62d0ba49b36c440bb7ef3b65a747f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Characters/Character02/chr02_wb02.png using Guid(5e62d0ba49b36c440bb7ef3b65a747f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1606b56251b42ec4c8a6556ac35d8397') in 0.0164589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Isometric Suburban Pack/Buildings/apartment complex 02a.png
+  artifactKey: Guid(4cccdfed8a9845845810d7d2f93fb63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Buildings/apartment complex 02a.png using Guid(4cccdfed8a9845845810d7d2f93fb63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd938b0226fbb0d2b3cee5a96a33abb50') in 0.0204644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric Suburban Pack/Props/above ground pool.png
+  artifactKey: Guid(9981ebc5308209f4f8e163eab090d4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/above ground pool.png using Guid(9981ebc5308209f4f8e163eab090d4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1df96e665ba17f247a3951f883f7e1c8') in 0.0178383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric Suburban Pack/Characters/Character02/chr02_wa03.png
+  artifactKey: Guid(d794c7de63fdcf848ac1af7ddffaedd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Characters/Character02/chr02_wa03.png using Guid(d794c7de63fdcf848ac1af7ddffaedd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5610a852f5ebb9a58838909653761d81') in 0.0157248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Isometric Suburban Pack/Vehicles/vehicle 02a.png
+  artifactKey: Guid(fc0f90e401c75324684ab119ce689717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Vehicles/vehicle 02a.png using Guid(fc0f90e401c75324684ab119ce689717) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db1b627bb09ac0646bf728c7cf674fa9') in 0.0166843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Isometric Suburban Pack/Props/trash bin green b.png
+  artifactKey: Guid(09846788fabbce149adca9f604b9cb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/trash bin green b.png using Guid(09846788fabbce149adca9f604b9cb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b82c12319339ec5791c6a6c0ae2d8952') in 0.0175211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Isometric Suburban Pack/Buildings/apartment complex 02d.png
+  artifactKey: Guid(b32b1d9d8742ca645954ebce4bb8ba83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Buildings/apartment complex 02d.png using Guid(b32b1d9d8742ca645954ebce4bb8ba83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '733ede036f6c091102b1655a86900794') in 0.0241711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Lana Studio/Hyper Casual FX/Textures/Circle02.png
+  artifactKey: Guid(b27bcf37600cca24196520251965a496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lana Studio/Hyper Casual FX/Textures/Circle02.png using Guid(b27bcf37600cca24196520251965a496) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4070fd24173be4f089f9fa62ac348262') in 0.0377867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric Suburban Pack/Props/street name sign d.png
+  artifactKey: Guid(16060df8bedddb846a94878b15c6a09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/street name sign d.png using Guid(16060df8bedddb846a94878b15c6a09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'caa619195456ebdf921396013ba25464') in 0.0129124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Isometric Suburban Pack/Buildings/house 02c.png
+  artifactKey: Guid(22febb684e790864d80471d65e49f090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Buildings/house 02c.png using Guid(22febb684e790864d80471d65e49f090) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f3b785c06fbb9d6a827137ad2fd339f') in 0.0150726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Isometric Suburban Pack/Buildings/apartment complex 01a.png
+  artifactKey: Guid(298de059dd07c5342b1425aa46a67f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Buildings/apartment complex 01a.png using Guid(298de059dd07c5342b1425aa46a67f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ead9b8af2776c424ec456128d0144ac') in 0.0130058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Isometric Suburban Pack/Props/street name sign c.png
+  artifactKey: Guid(178be6634204baf4a8919a0397931978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/street name sign c.png using Guid(178be6634204baf4a8919a0397931978) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89901bcc5326c8be68b63ff509e77427') in 0.014127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Isometric Suburban Pack/Characters/Character02/chr02_wa04.png
+  artifactKey: Guid(9b2a7df3cb90bb84b98edf410660e4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Characters/Character02/chr02_wa04.png using Guid(9b2a7df3cb90bb84b98edf410660e4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c8dbbc60be898cc1b9b3d1765baf5b5') in 0.012605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Isometric Suburban Pack/Props/street name sign.png
+  artifactKey: Guid(09c425170baa5854098830577989a471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/street name sign.png using Guid(09c425170baa5854098830577989a471) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87fe36336928be1c46242455e8286b76') in 0.0153751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.354646 seconds.
+  path: Assets/Isometric Suburban Pack/Buildings/apartment complex 03d.png
+  artifactKey: Guid(f42a1dd16f21e9d4080aaec8f679dfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Buildings/apartment complex 03d.png using Guid(f42a1dd16f21e9d4080aaec8f679dfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2321a83c183413d9f5c7c94c6971281c') in 0.016402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022270 seconds.
+  path: Assets/Isometric Suburban Pack/Props/bbq kettle.png
+  artifactKey: Guid(432b361177c16434188dff6b64ffb11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/bbq kettle.png using Guid(432b361177c16434188dff6b64ffb11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '475f27fc7b54ab010852fe87f1dee1f5') in 0.0125281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038232 seconds.
+  path: Assets/Isometric Suburban Pack/Characters/Character02/chr02_wc02.png
+  artifactKey: Guid(50076632eddb6b8458fb7cab0889201f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Characters/Character02/chr02_wc02.png using Guid(50076632eddb6b8458fb7cab0889201f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c141b23353ff31442e50c75a091b80a1') in 0.0152555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Isometric Suburban Pack/Buildings/convenience store 01a.png
+  artifactKey: Guid(4cce06dde178ca449a4319b4383e3362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Buildings/convenience store 01a.png using Guid(4cce06dde178ca449a4319b4383e3362) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75598cf3785be9a7712f7b874f2ae394') in 0.0257485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric Suburban Pack/Grounds/dry grass ground.png
+  artifactKey: Guid(2cb4f3740e0d9974a940751879bb28fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Grounds/dry grass ground.png using Guid(2cb4f3740e0d9974a940751879bb28fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f083822c1cd3cbe5d16171b50a0850b0') in 0.0269153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Isometric Suburban Pack/Props/fire hydrant.png
+  artifactKey: Guid(47504d9bde0768b459a54a201220ecbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/fire hydrant.png using Guid(47504d9bde0768b459a54a201220ecbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30c8896dddccabf4183ce693683577c3') in 0.0192122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric Suburban Pack/Fences/gate 01 b.png
+  artifactKey: Guid(a20ca13cd99a08d4e94cf0eb8f12cd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Fences/gate 01 b.png using Guid(a20ca13cd99a08d4e94cf0eb8f12cd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0c73ed614463289c887ca0990f482c0') in 0.0466623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Lana Studio/Hyper Casual FX/Textures/drop.png
+  artifactKey: Guid(fa7777da9f2101d4898e23c5e4b0010d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lana Studio/Hyper Casual FX/Textures/drop.png using Guid(fa7777da9f2101d4898e23c5e4b0010d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a31effc2e250755e0851dab1bce527e') in 0.0202854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Lana Studio/Hyper Casual FX/Textures/drop_blue.png
+  artifactKey: Guid(5e4bcbaf759026e4aa009c3c728033cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lana Studio/Hyper Casual FX/Textures/drop_blue.png using Guid(5e4bcbaf759026e4aa009c3c728033cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a04f07e2f83f6e48a6398b422f32bfa') in 0.0189704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Isometric Suburban Pack/Buildings/gas station d.png
+  artifactKey: Guid(e32d241612dc46e45b94a22bc41e1d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Buildings/gas station d.png using Guid(e32d241612dc46e45b94a22bc41e1d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '632121d75d1757384ba6a03a2b1a43f9') in 0.0210533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.134372 seconds.
+  path: Assets/Isometric Suburban Pack/Buildings/house 05b.png
+  artifactKey: Guid(07171d6b94408a14395bf8005b4f5afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Buildings/house 05b.png using Guid(07171d6b94408a14395bf8005b4f5afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68cd104243d135e6e43db0e3945638d6') in 0.0135659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric Suburban Pack/Buildings/house 06a.png
+  artifactKey: Guid(69dcd5eb72f593545a537913674328de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Buildings/house 06a.png using Guid(69dcd5eb72f593545a537913674328de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6c2956f8ecdb5caf79f6651132c6664') in 0.0167682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Isometric Suburban Pack/Buildings/house 08c.png
+  artifactKey: Guid(317b8a025f27f634ea18df7f28be87e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Buildings/house 08c.png using Guid(317b8a025f27f634ea18df7f28be87e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '396fc0a75239af110c48dd17da8761ee') in 0.0141801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Isometric Suburban Pack/Vehicles/pickup 02d.png
+  artifactKey: Guid(e13ffc8f0f6d9a2458aeda25a8148afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Vehicles/pickup 02d.png using Guid(e13ffc8f0f6d9a2458aeda25a8148afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ab7bcaf29484f04f5567e8ed52260b6') in 0.0124465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008375 seconds.
+  path: Assets/Isometric Suburban Pack/Props/Roads/road 02 a.png
+  artifactKey: Guid(b47991d9b6684b84e825741db84def0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/Roads/road 02 a.png using Guid(b47991d9b6684b84e825741db84def0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3b535a43c51fafe998461d7c1f9ae4d') in 0.0125905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006403 seconds.
+  path: Assets/Isometric Suburban Pack/Props/stop sign b.png
+  artifactKey: Guid(99d9548a68d985d4497c394536a920ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/stop sign b.png using Guid(99d9548a68d985d4497c394536a920ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18a8ed1e34a2ba157e8978bb64a706ec') in 0.0121356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004467 seconds.
+  path: Assets/Isometric Suburban Pack/Vehicles/suv 04a.png
+  artifactKey: Guid(115e23d9c5e035546b3d491d86b773bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Vehicles/suv 04a.png using Guid(115e23d9c5e035546b3d491d86b773bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f79340acf19a54239fc12f2f99b3e74') in 0.0120962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007338 seconds.
+  path: Assets/Isometric Suburban Pack/Props/traffic light d.png
+  artifactKey: Guid(4bc0b7bcbb0682249920cff985f535f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/traffic light d.png using Guid(4bc0b7bcbb0682249920cff985f535f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d423d9930bd5e006a1bc643c433bac0') in 0.0124347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Isometric Suburban Pack/Props/trash bin blue a.png
+  artifactKey: Guid(896317b5b49bbc0479619249d8b3c8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/trash bin blue a.png using Guid(896317b5b49bbc0479619249d8b3c8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03b29b9f6f417ca845c9aab5b843edda') in 0.0114005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.073220 seconds.
+  path: Assets/Isometric Suburban Pack/Vehicles/suv 05c.png
+  artifactKey: Guid(d4c8d1d91a5bd9043bbcff55fc9d7b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Vehicles/suv 05c.png using Guid(d4c8d1d91a5bd9043bbcff55fc9d7b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '005703ec05c28d5c142416aab88949b8') in 0.0134827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019161 seconds.
+  path: Assets/Isometric Suburban Pack/Vehicles/suv 05b.png
+  artifactKey: Guid(7ab61448583abb04b97552f6b5985ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Vehicles/suv 05b.png using Guid(7ab61448583abb04b97552f6b5985ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '312206d2b2a08cbd8540d4f6f3422f23') in 0.0174225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.446291 seconds.
+  path: Assets/Isometric Suburban Pack/Vehicles/suv 01b.png
+  artifactKey: Guid(c24c461a73edde9449b3f4ba77057009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Vehicles/suv 01b.png using Guid(c24c461a73edde9449b3f4ba77057009) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2845904fe6d41c2c4d8298216084ea13') in 0.0175014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050336 seconds.
+  path: Assets/Isometric Suburban Pack/Props/solar panel a.png
+  artifactKey: Guid(f92e8d2cf676c16409e7e9c29fa66339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/solar panel a.png using Guid(f92e8d2cf676c16409e7e9c29fa66339) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9008b40223c0151294b7251062af53e6') in 0.0358892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027476 seconds.
+  path: Assets/Isometric Suburban Pack/Props/Roads/sidewalk corner a.png
+  artifactKey: Guid(b55762d7644400442a824ba0bad2c2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/Roads/sidewalk corner a.png using Guid(b55762d7644400442a824ba0bad2c2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e22d45d8645d5cac1af579996996336') in 0.0298442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Isometric Suburban Pack/sample 01.png
+  artifactKey: Guid(7acbfd1f9f1cd864b988fc3c06d24d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/sample 01.png using Guid(7acbfd1f9f1cd864b988fc3c06d24d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67af46b4a4d751ee2d1680032e528a44') in 0.0231825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Isometric Suburban Pack/Props/Roads/road curve b.png
+  artifactKey: Guid(83a6ebadeae9c1a4b92a1d748c8777b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/Roads/road curve b.png using Guid(83a6ebadeae9c1a4b92a1d748c8777b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cefdd81d01e0638a862cea037a790d23') in 0.0213294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.155116 seconds.
+  path: Assets/Isometric Suburban Pack/Vehicles/pickup 05a.png
+  artifactKey: Guid(c65d028df52effb43a7af4825dd99390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Vehicles/pickup 05a.png using Guid(c65d028df52effb43a7af4825dd99390) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2f9408b96ce0ab1e40d0bfcaaee0c87') in 0.0126161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Isometric Suburban Pack/Vehicles/pickup 04c.png
+  artifactKey: Guid(e4d6b884cd8b5644db529db03e52077b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Vehicles/pickup 04c.png using Guid(e4d6b884cd8b5644db529db03e52077b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '359e38c65f796c038ee9ed2ac39f25d8') in 0.0124781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018360 seconds.
+  path: Assets/Isometric Suburban Pack/Vehicles/pickup 01b.png
+  artifactKey: Guid(c6cc198a519918e4cbbfcfacf9002dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Vehicles/pickup 01b.png using Guid(c6cc198a519918e4cbbfcfacf9002dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8eed007ec90d2964eebcbaad416a41fd') in 0.0118113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Isometric Suburban Pack/Vehicles/pickup 02a.png
+  artifactKey: Guid(4f68ecc25f3307240a520cf0ac5f58a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Vehicles/pickup 02a.png using Guid(4f68ecc25f3307240a520cf0ac5f58a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a9be08073f9d750dd0c5133bbedef5f') in 0.0117782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019952 seconds.
+  path: Assets/Isometric Suburban Pack/Props/light pole c.png
+  artifactKey: Guid(16c2c50b1a1f6e249b111cde82a7f1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Props/light pole c.png using Guid(16c2c50b1a1f6e249b111cde82a7f1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee51cbc8d7aa66b66500a52d26a5e034') in 0.0117107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006088 seconds.
+  path: Assets/Isometric Suburban Pack/Buildings/house 11b.png
+  artifactKey: Guid(d27e9deca091b9344bb9dab6e260690a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Buildings/house 11b.png using Guid(d27e9deca091b9344bb9dab6e260690a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58d897e05558fa9008c8832d1bc397ef') in 0.0137065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005918 seconds.
+  path: Assets/Isometric Suburban Pack/Buildings/house 10a.png
+  artifactKey: Guid(321dc060793c2114da369f44531798f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Suburban Pack/Buildings/house 10a.png using Guid(321dc060793c2114da369f44531798f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e3a94d0602ba7be90f9530eaa2b333f') in 0.014809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
